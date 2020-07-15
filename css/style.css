@@ -1,6 +1,18 @@
-.debug {
-  height:  200px;
-  width: 200px;
+.debug_green {
   background-color: green;
 
+}
+
+.debug_pink {
+  background-color: pink;
+}
+
+.debug_red {
+  background-color: red;
+}
+
+@media screen (min-width: 1200px) {
+  .main_porfolio .container .row {
+    display: inline-block;
+  }
 }
