@@ -11,8 +11,10 @@
   background-color: red;
 }
 
-@media screen (min-width: 1200px) {
-  .main_porfolio .container .row {
-    display: inline-block;
-  }
+.wrapper_small {
+  max-width: 700px;
+}
+
+.txt_center {
+  text-align: center;
 }
