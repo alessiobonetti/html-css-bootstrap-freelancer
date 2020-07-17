@@ -38,7 +38,7 @@ body {
 }
 
 .font_sz_50 {
-  font-size: 50px;
+  font-size: 3.12rem;
 }
 
 .font_color_white {
@@ -104,4 +104,14 @@ body {
 
 #main_porfolio .hr_divider {
   border: 2px solid #2c3e50;
+}
+
+/* responsive */
+
+@media screen and (max-width:991px) {
+  /* header */
+  #header_top h2 {
+    font-size: 1.5rem;
+    margin-left: 20px;
+  }
 }
